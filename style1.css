@@ -1,0 +1,139 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background: linear-gradient(344deg, #493c33, #78614b);
+  background-size: 1700% 1700%;
+
+  -webkit-animation: BG 4s ease infinite;
+  -moz-animation: BG 4s ease infinite;
+  animation: BG 4s ease infinite;
+}
+
+h1 {
+  font-style: ;
+  color: #FFF6D0;
+  font-family: "Gallient-Regular";
+  font-size: 80px;
+}
+
+@font-face {
+  font-family: "Gallient-Regular";
+  src: url("Gallient-Regular.otf") format("opentype"),
+    url("Gallient-Regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("Gallient-Regular.woff") format("woff"),
+    /* Pretty Modern Browsers */ url("Gallient-Regular.ttf") format("truetype"); /* Safari, Android, iOS */
+  font-weight: 600;
+  font-style: normal;
+}
+
+@-webkit-keyframes BG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 51%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes BG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 51%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes BG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 51%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.p1{
+  font-family: "Cormorant Garamond", serif;
+  line-height: 1.6;
+  width: 520px;
+  padding: 10px;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #DAD2B2;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+a{
+  color: #3F2F23;
+}
