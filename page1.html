@@ -8,9 +8,9 @@
     <title>In Praise</title>
 
     <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="./style1.css" />
-    
-     <!-- Google Fonts -->
+    <link rel="stylesheet" href="/shadow.css" />
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,300&display=swap"
@@ -20,8 +20,10 @@
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
   </head>
-  <body>
+  <body onload="move('theDiv')">
     <h1>Roof</h1>
+    
+ 
 
     <div class="p1">
       <p1
@@ -58,15 +60,24 @@
         beauty, however, must always grow from the realities of life, and our
         ancestors, forced to live in dark rooms, presently came to discover
         beauty in shadows, ultimately to guide shadows towards beauty's ends.
-      </p1>
+      </p1><br><br><br>
     </div>
-  
-    <a href="page2.html">
-      <img
-        src="https://cdn.glitch.com/751c293f-8ad4-411d-8c14-6b16a7ed9c0a%2Fwhite-arrow-png-41963.png?v=1614705110740"
-        alt="HTML tutorial"
-        style="width:42px;height:42px;"
-      />
-    </a>
+
+    <div id="theDiv" class="theDiv">
+      
+    </div>
+    
+    <p2>move to cast the shadow:</p2>
+
+    <div style="text-align: right">
+      <a href="page2.html">
+        <img
+          src="https://cdn.glitch.com/751c293f-8ad4-411d-8c14-6b16a7ed9c0a%2Fwhite-arrow-png-41963.png?v=1614705110740"
+          alt="HTML tutorial"
+          style="width:42px;height:42px;float:right"
+        />
+      </a>
+    </div>
+    
   </body>
 </html>
