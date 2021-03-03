@@ -113,3 +113,21 @@ a{
   font-family: "Cormorant Garamond", serif;
   color: #3F2F23;
 }
+
+@media only screen and (max-width: 800px) {
+  h1 {
+    font-size: 65px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  h1 {
+    font-size: 80px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  p {
+    font-size: 20px;
+  }
+}
